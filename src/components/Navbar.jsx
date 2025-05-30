@@ -1,17 +1,32 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const Navbar = () => {
 
     const [show, setShow] = useState(false);
+    const [scroll, setScroll] = useState(false);
 
     const handleClick = () => {
         setShow(!show);
     }
-
     let menuActive = show ? "left-0" : "-left-full;"
+
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+            if (window.scrollY > 5) {
+                setScroll(true);
+                setShow(false);
+            } else {
+                setScroll(false);
+            }
+        })
+    })
+
+    let scrollActive = scroll ? "py-6 bg-white shadow" : "py-4";
+        
+
 return (
     
-    <div className="navbar w-full fixed transition-all py-4">
+    <div className={`navbar w-full fixed transition-all ${scrollActive}`}>
         <div className="container mx-auto px-4">
             <div className="navbar-box flex items-center justify-between">
                 <div className="logo">
