@@ -1,16 +1,17 @@
-<<<<<<< HEAD
-# React + Vite
+# Devora – Learn Programming Fundamentals
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Devora is a frontend-only web app for learning basic programming languages like HTML, CSS, and JavaScript. It’s designed for beginners with a clean UI, structured lessons, and interactive examples.
 
-Currently, two official plugins are available:
+## ⚙️ Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React (Vite)
+- Tailwind CSS
+- JavaScript
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# devora_vtr
->>>>>>> 44d310ea29ce67b5db166c43c53f7873050ec572
+- Introductory course: HTML, CSS, JavaScript
+- Interactive lessons with quizzes
+- Responsive layout (mobile-first)
+- Component-based structure
+- Clean, modern UI
